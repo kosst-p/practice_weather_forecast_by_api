@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/mustard-ui.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=4abed4f1-d464-47e6-991a-d65af8b10d37&lang=ru_RU"
+        type="text/javascript">
+        </script>
+    <title>Прогноз погоды по API</title>
+</head>
+
+<body>
+    <div class="container">
+        <section>
+            <h1>Прогноз погоды по API</h1>
+        </section>
+        <section>
+            <p><b>Узнать погоду</b></p>
+            <p>**города в базе: Новочеркасск, Москва, Киев, Сочи, Калифорния, Куско, Канмор, Катманду</p>
+            <p><input type="text" placeholder="Введите город" class="set-city"></p>
+            <button class="button-primary search-btn">Click</button>
+            <div class="weather-wrapper"></div>
+            <div class="map"></div>
+        </section>
+    </div>
+    <script type="text/javascript" src="script.js"></script>
+
+</body>
+
+</html>

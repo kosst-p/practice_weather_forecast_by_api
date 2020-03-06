@@ -1,0 +1,80 @@
+.container {
+    width: 100%;
+}
+
+h1 {
+    font-size: 32px;
+    line-height: 36px;
+}
+
+h2 {
+    font-size: 24px;
+}
+
+section {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+}
+
+.block {
+    width: 75px;
+    height: 75px;
+    margin: 25px;
+    border: 2px solid #333;
+}
+
+.active {
+    background: orange;
+}
+
+.hide {
+    display: none;
+}
+
+.img-12-min {
+    width: 64px;
+}
+
+.img-12-max {
+    width: 128px;
+    border: 3px solid #fff;
+}
+
+.active-img {
+    border: 3px solid black;
+}
+
+.weather-wrapper {
+    margin-bottom: 20px;
+}
+.country {
+    color: white;
+    width: 100%;
+    margin: 0 auto;
+    border: 2px solid black;
+    padding: 15px;
+    text-align: center;
+    -webkit-box-shadow: 0px 0px 22px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 22px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 22px -1px rgba(0, 0, 0, 0.75);
+}
+
+.map {
+    width: 100%;
+    height: 400px;
+}
+
+.weather-img {
+    width: 80px;
+    height: 80px;
+}
+.wrapper-inside {
+    background-color: rgba(76, 175, 79, 0.787);
+    padding: 10px;
+}
+
+@media (max-width: 420px) {
+    .country {
+        width: 100%;
+    }
+}
