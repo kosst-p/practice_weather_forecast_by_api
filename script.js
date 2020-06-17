@@ -213,7 +213,7 @@ function getWeather() {
         city.name = city.name.toLowerCase();
         if (city.name === setCity) {
             fetch(
-                `http://api.openweathermap.org/data/2.5/weather?id=${city.id}&appid=${apiKey}`
+                `https://api.openweathermap.org/data/2.5/weather?id=${city.id}&appid=${apiKey}`
             )
                 .then(response => response.json())
                 .then(data => {
